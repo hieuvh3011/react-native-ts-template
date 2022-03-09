@@ -1,0 +1,8 @@
+{
+    "name": "react-native-typescript-template",
+    "version": "0.0.1",
+    "description": "React Native Typescript custom template with duck structure",
+    "repository": "git@github.com:hieuvh3011/react-native-ts-template.git",
+    "author": "Hieu Vu <hieu.vh301195@gmail.com>",
+    "license": "MIT"
+  }
