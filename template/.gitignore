@@ -21,6 +21,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+ios/.xcode.env.local
 # Android/IntelliJ
 #
 build/
@@ -30,6 +31,8 @@ local.properties
 *.iml
 *.hprof
 *.keystore
+.cxx/
+!debug.keystore
 
 # node.js
 #
@@ -51,10 +54,11 @@ buck-out/
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
 
-*/fastlane/report.xml
-*/fastlane/Preview.html
-*/fastlane/screenshots
 
 # Bundle artifact
 *.jsbundle
@@ -62,6 +66,10 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 Podfile.lock
+# Ruby / CocoaPods
+/vendor/bundle/
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
 
 .vscode
 .bundle
